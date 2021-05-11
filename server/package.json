@@ -1,0 +1,25 @@
+{
+  "name": "expressjs-blog-with-mysql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app",
+    "dev": "nodemon app"
+  },
+  "author": "Afsara Benazir",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^9.0.1",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "paginationjs": "^2.1.5"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.5.5",
+    "nodemon": "^2.0.7"
+  }
+}
